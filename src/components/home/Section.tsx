@@ -1,6 +1,6 @@
 export default function Section() {
   return (
-    <div className="pb-[100px] pt-[220px]">
+    <div className="pb-[100px] pt-[50px] xl:pt-[220px]">
       <div className="bg-zinc-900 text-center p-[60px] ">
         <p className="text-zinc-300 text-[40px] hover:scale-105 duration-300">
           <strong>
@@ -14,7 +14,7 @@ export default function Section() {
           <div className="flex justify-center pb-[10px]">
             <div className="flex gap-[10px] justify-center pb-[10px] p-[10px]">
               <img className="h-[27px] animate-spin" src="/gear-six.svg" alt="engrenagem" />
-              <h1 className="text-[20px] text-white">
+              <h1 className="text-[25px] xl:text-[20px] text-white">
                 <strong>More about </strong>
                 <span className="text-violet-700 font-bold">Suhyu</span>
               </h1>
@@ -22,7 +22,7 @@ export default function Section() {
           </div>
           <div className="pt-[20px] ">
             <a href="/commands">
-              <button className="bg-violet-800 text-white px-[20px] py-[15px] rounded-[5px] hover:scale-110 duration-500">
+              <button className="bg-violet-800 text-white xl:px-[20px] xl:py-[15px] px-[40px] py-[30px] text-[20px] xl:text-[15px] rounded-[5px] hover:scale-110 duration-500">
                 <strong>See my commands</strong>
               </button>
             </a>

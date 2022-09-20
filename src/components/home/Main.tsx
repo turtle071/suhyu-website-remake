@@ -27,12 +27,12 @@ export default function Main() {
           </div>
           <nav className="pt-[25px] flex gap-5">
             <a href="/add">
-              <button className=" text-[20px] xl:text-[16px] rounded-[6px] p-[10px] px-[30px] xl:p-[10px] xl:px-[20px] hover:bg-violet-800 bg-violet-700 hover:transition ease-in-out delay-800 hover:-translate-y-1 hover:scale-110 duration-300">
+              <button className=" text-[20px] xl:text-[16px] rounded-[6px] p-[10px] px-[40px] xl:p-[10px] xl:px-[20px] hover:bg-violet-800 bg-violet-700 hover:transition ease-in-out delay-800 hover:-translate-y-1 hover:scale-110 duration-300">
                 Add Suhyu
               </button>
             </a>
             <a href="/support">
-              <button className="text-[20px] xl:text-[16px] rounded-[6px] p-[10px] px-[30px] xl:p-[10px] xl:px-[20px] hover:bg-zinc-800 bg-zinc-700 hover:transition ease-in-out delay-800 hover:-translate-y-1 hover:scale-110 duration-300">
+              <button className="text-[20px] xl:text-[16px] rounded-[6px] p-[10px] px-[40px] xl:p-[10px] xl:px-[20px] hover:bg-zinc-800 bg-zinc-700 hover:transition ease-in-out delay-800 hover:-translate-y-1 hover:scale-110 duration-300">
                 Support Server
               </button>
             </a>
