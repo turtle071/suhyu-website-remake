@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <main>
       <div className="flex pt-[70px] gap-[140px]">
-        <div className="flex-col text-white pl-[300px]">
+        <div className="flex-col text-white xl:pl-[300px]">
           <div>
             <h1 className="text-white text-[48px] hover:scale-105 duration-500">
               <strong>
