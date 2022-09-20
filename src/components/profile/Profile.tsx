@@ -8,7 +8,7 @@ export default function Profile() {
   const onClick = () => setIsActive(!isActive);
 
   return (
-    <div className="md:none xl:visible sm:none">
+    <div className="d">
       <button onClick={onClick} className=" cursor-pointer duration-500 pt-[5px]">
         {!isActive ? (
           <img className="h-[300px] hover:bg-indigo-400 rounded-full hover:scale-105 transition delay-150 duration-700" src="/imagem suhyu.svg" alt="suhyu" />

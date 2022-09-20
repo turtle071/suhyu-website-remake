@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <main>
       <div className="flex pt-[70px] gap-[140px]">
-        <div className="flex-col text-white xl:pl-[300px]">
+        <div className="f flex-col text-white xl:pl-[300px]">
           <div>
             <h1 className="text-white text-[48px] hover:scale-105 duration-500">
               <strong>
@@ -38,7 +38,9 @@ export default function Main() {
             </a>
           </nav>
         </div>
-        <Profile />
+        <div className="md:h-[0px] lg:h-[0px] sm:h-[0px]">
+          <Profile />
+        </div>
       </div>
       <Section />
       <Footer />
