@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header>
-      <div className="xl:flex xl:justify-center text-zinc-400 xl:gap-[530px] border-b-[1px] border-neutral-800 pb-[15px] md:justify-start md:gap-[25px]">
+      <div className="xl:flex xl:justify-center text-zinc-400 xl:gap-[530px] border-b-[1px] border-neutral-800 pl-[40px] xl:pl-[0px] pb-[15px] md:justify-start md:gap-[25px]">
         <h1 className="text-[30px] xl:text-[25px] pt-[20px] text-white duration-500 ">
           <strong>🧁Suhyu</strong>
         </h1>
