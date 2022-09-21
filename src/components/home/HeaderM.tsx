@@ -5,7 +5,7 @@ export default function HeaderM() {
   const [isActive, setIsActive] = useState(false);
   const onClick = () => setIsActive(!isActive);
   return (
-    <div>
+    <div className="xl:hidden">
       <h1 className="text-[30px] xl:text-[25px] pt-[20px] text-center text-white duration-500 ">
         <strong>🧁Suhyu</strong>
       </h1>
