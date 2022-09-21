@@ -1,6 +1,6 @@
 export default function Section() {
   return (
-    <div className="pb-[60px] pt-[50px] xl:pt-[260px]">
+    <div className="pb-[60px] pt-[85px] xl:pt-[260px]">
       <div className="bg-zinc-900 text-center p-[60px] ">
         <p className="text-zinc-300 text-[40px] hover:scale-105 duration-300">
           <strong>

@@ -22,6 +22,11 @@ const nextConfig = {
         destination: 'https://discord.gg/jSgVkj3U9b',
         permanent: false,
       },
+      {
+        source: '/github',
+        destination: 'https://github.com/turtle071/Suhyu',
+        permanent: false,
+      },
     ];
   },
 };

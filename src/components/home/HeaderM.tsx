@@ -14,15 +14,15 @@ export default function HeaderM() {
           {!isActive ? <img className="h-[45px] transform transition duration-500 ease-in-out" src="/list.svg" alt="menu" /> : <img className="h-[45px] " src="/x.svg" alt="x" />}
         </button>
         <nav ref={dropDownRef} className={`${isActive ? 'active:visible opacity-1 px-[50px]' : 'inactive opacity-0 hidden'}`}>
-          <ul className="text-white text-center border-[5px] rounded-[7px] bg-violet-700 py-[10px]">
-            <li className="border-b-[1px] border-violet-700 text-zinc-200 text-[18px]">
-              <a>Suport server 💬</a>
+          <ul className="text-white text-center  rounded-[7px] py-[10px]">
+            <li className=" text-zinc-200 hover:text-zinc-400 text-[18px]">
+              <a href="/support">Suport server 💬</a>
             </li>
-            <li className="border-b-[1px] border-violet-700 text-zinc-200 text-[18px]">
-              <a>Add +</a>
+            <li className=" text-zinc-200 hover:text-zinc-400 text-[18px]">
+              <a href="/add">Add +</a>
             </li>
-            <li className="text-zinc-200 text-[18px]">
-              <a>Open source 💻</a>
+            <li className="text-zinc-200 hover:text-zinc-400 text-[18px]">
+              <a href="/github">Open source 💻</a>
             </li>
           </ul>
         </nav>
