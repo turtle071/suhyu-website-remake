@@ -6,7 +6,7 @@ import Section from './Section';
 export default function Main() {
   return (
     <main>
-      <div className="flex pt-[70px] gap-[140px]">
+      <div className="flex pt-[40px] xl:pt-[70px] gap-[140px]">
         <div className="pl-[20px] flex-col text-white xl:pl-[300px]">
           <div>
             <h1 className="text-white text-[55px] xl:text-[48px] hover:scale-105 duration-500 hidden xl:flex">
