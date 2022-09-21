@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Main from '../components/home/Main';
 import Header from '../components/home/Header';
+import HeaderM from '../components/home/HeaderM';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <meta name="description" content="Suhyu is a Discord bot" />
         <title>Suhyu | A Discord bot.</title>
       </Head>
+      <HeaderM />
       <Header />
       <Main />
     </main>
