@@ -3,7 +3,7 @@ import Roles from './Roles';
 
 export default function ProfileM() {
   return (
-    <div className="p-[40px]">
+    <div className="p-[55px]">
       <div className="xl:hidden pb-[60px]">
         <div className=" bg-violet-900 rounded-t-2xl pr-[2px] h-[120px] ">
           <div className="pl-5 pt-20">
