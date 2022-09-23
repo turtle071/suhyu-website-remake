@@ -6,17 +6,22 @@ export default function Header() {
           <strong>🧁Suhyu</strong>
         </h1>
         <div className="gap-[19px] xl:pr-[40px] pt-[25px] hidden xl:flex ">
-          <a href="">
+          <a href="/">
+            <p className="hover:transition text-[16px] xl:text-[15px] ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-zinc-100">
+              <strong>Home</strong>
+            </p>
+          </a>
+          <a href="/support">
             <p className="hover:transition text-[16px] xl:text-[15px] ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-zinc-100">
               <strong>Suport server 💬</strong>
             </p>
           </a>
-          <a href="">
+          <a href="/add">
             <p className="hover:transition text-[16px] xl:text-[15px] ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-zinc-100">
               <strong>Add +</strong>
             </p>
           </a>
-          <a href="">
+          <a href="/github">
             <p className="hover:transition text-[16px] xl:text-[15px] ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-zinc-100">
               <strong>Open source 💻</strong>
             </p>

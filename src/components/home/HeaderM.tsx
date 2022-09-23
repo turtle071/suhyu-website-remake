@@ -15,6 +15,9 @@ export default function HeaderM() {
         </button>
         <nav ref={dropDownRef} className={`${isActive ? 'active:visible opacity-1 px-[50px]' : 'inactive opacity-0 hidden'}`}>
           <ul className="text-white text-center  rounded-[7px] py-[10px]">
+            <li className="text-zinc-200 hover:text-zinc-400 text-[18px]">
+              <a href="/github">Home</a>
+            </li>
             <li className=" text-zinc-200 hover:text-zinc-400 text-[18px]">
               <a href="/support">Suport server 💬</a>
             </li>
