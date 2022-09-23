@@ -27,6 +27,11 @@ const nextConfig = {
         destination: 'https://github.com/turtle071/Suhyu',
         permanent: false,
       },
+      {
+        source: '/creator',
+        destination: 'https://turtlee.tech/',
+        permanent: false,
+      },
     ];
   },
 };
