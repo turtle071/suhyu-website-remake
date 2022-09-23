@@ -21,7 +21,7 @@ export default function Section() {
             </div>
           </div>
           <div className="pt-[20px] ">
-            <a href="/Commands">
+            <a href="/commands">
               <button className="bg-violet-800 text-white xl:px-[20px] xl:py-[15px] px-[40px] py-[30px] text-[20px] xl:text-[15px] rounded-[5px] hover:scale-110 duration-500">
                 <strong>See my commands</strong>
               </button>
